@@ -1,0 +1,48 @@
+*.class
+*.log
+
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+
+# Ignore OS files
+.DS_Store
+
+# Firebase
+*firebase-key*.json
+
+# Ignore IDE files
+.idea/
+.bsp/
+
+# vscode
+.vscode/
+
+# metals
+.bloop
+.metals/
+.ammonite/
+.trunk/
+metals.sbt
+metals/project/
+null
+metals-options.sbt
+
+#
+*.sc
+.env
+
+~/
